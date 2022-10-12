@@ -12,6 +12,8 @@ This module shows one of the ways to implement and use these things in Go. This 
 
 Note: this pattern should not be used in performance sensitive code.
 
+License: MIT.
+
 ## Features
 
 - No reflection or generics used.
