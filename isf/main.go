@@ -29,7 +29,7 @@ func String(x string) stringType { return stringType(x) }
 // Float64 wraps a float64.
 func Float64(x float64) float64Type { return float64Type(x) }
 
-// Match exhaustively switches on all possibles types it interface can contain and passes underlying type to the corresponding handler.
+// Match exhaustively switches on all possibles types T can contain and passes the underlying type to the corresponding handler.
 func Match(it T, i func(int), s func(string), f func(float64)) {
 	switch it := it.(type) {
 	case intType:
