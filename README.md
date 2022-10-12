@@ -22,7 +22,7 @@ License: MIT.
 
 ## Details
 
-`isf.T ` is a tagged union, which holds an int, a string or a float. `isf.Match` is used for pattern matching. It receives a `isf.T` and a handler for each of the possible cases. `main.go` has an example how this should be used, check it out.
+`isf.T` is a tagged union, which holds an int, a string or a float. `isf.Match` is used for pattern matching. It receives a `isf.T` and a handler for each of the possible cases. `main.go` has an example how this should be used, check it out.
 
 I'm open for suggestions on how to improve this :)
 
