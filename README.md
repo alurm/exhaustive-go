@@ -1,4 +1,4 @@
-# An example of emulation of tagged unions and of exhaustive pattern matching in Go
+# An example of tagged unions and exhaustive pattern matches in Go
 
 ## Tagged unions
 
